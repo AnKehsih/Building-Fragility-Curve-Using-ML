@@ -1,0 +1,10 @@
+,land_surface_condition,position,plan_configuration,foundation_type,roof_type,ground_floor_type,other_floor_type,structural_type,storeys_band
+land_surface_condition,1.0,0.003,0.026,0.028,0.028,0.042,0.029,0.045,0.029
+position,0.003,1.0,0.027,0.125,0.141,0.098,0.133,0.126,0.096
+plan_configuration,0.026,0.027,1.0,0.068,0.068,0.069,0.069,0.06,0.043
+foundation_type,0.028,0.125,0.068,1.0,0.563,0.346,0.414,0.581,0.219
+roof_type,0.028,0.141,0.068,0.563,1.0,0.459,0.508,0.563,0.223
+ground_floor_type,0.042,0.098,0.069,0.346,0.459,1.0,0.348,0.404,0.175
+other_floor_type,0.029,0.133,0.069,0.414,0.508,0.348,1.0,0.439,0.601
+structural_type,0.045,0.126,0.06,0.581,0.563,0.404,0.439,1.0,0.252
+storeys_band,0.029,0.096,0.043,0.219,0.223,0.175,0.601,0.252,1.0

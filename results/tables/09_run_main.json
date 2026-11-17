@@ -1,0 +1,88 @@
+{
+  "args": {
+    "n_jobs": 8,
+    "threads": 4,
+    "seeds": [
+      678,
+      679,
+      680
+    ],
+    "random_seeds": [
+      678
+    ],
+    "tag": "main",
+    "resume": false,
+    "quick": false
+  },
+  "lgbm_variants": [
+    [
+      "district_pga",
+      {},
+      "full",
+      "district"
+    ],
+    [
+      "pga_bins5",
+      {
+        "pga_bins": 5
+      },
+      "full",
+      "municipality"
+    ],
+    [
+      "pga_bins10",
+      {
+        "pga_bins": 10
+      },
+      "full",
+      "municipality"
+    ],
+    [
+      "init_fragility",
+      {
+        "init": "fragility"
+      },
+      "no_pga",
+      "municipality"
+    ]
+  ],
+  "selected": {
+    "neic_v9/random_forest": {
+      "min_samples_leaf": 100
+    },
+    "neic_v9/ordinal_logit": {
+      "alpha": 100.0
+    },
+    "neic_v9/lightgbm": {
+      "num_leaves": 31,
+      "min_child_samples": 500
+    },
+    "neic_v9/decision_tree": {
+      "max_depth": 4
+    },
+    "preferred/ordinal_logit": {
+      "alpha": 100.0
+    },
+    "preferred/random_forest": {
+      "min_samples_leaf": 100
+    },
+    "preferred/decision_tree": {
+      "max_depth": 3
+    },
+    "preferred/lightgbm": {
+      "num_leaves": 31,
+      "min_child_samples": 500
+    }
+  },
+  "python": "3.12.16",
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "sklearn": "1.9.1",
+    "lightgbm": "4.7.0",
+    "joblib": "1.6.0"
+  },
+  "started": "2026-11-03 09:07:06",
+  "finished": "2026-11-03 09:32:17",
+  "minutes": 25.1
+}

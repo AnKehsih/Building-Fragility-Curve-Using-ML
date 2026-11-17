@@ -1,0 +1,9 @@
+{
+  "dataset": "nepal-municipalities-wise-geographic-data-shp-geojson-topojson-kml",
+  "title": "Administrative boundaries geographic data  of 753 municipalities in Nepal.",
+  "license": "Creative Commons Attribution Share-Alike",
+  "author": "Sagar Ghimire",
+  "resource_url": "https://api.opendatanepal.com/dataset/331813c0-e5fe-497a-a2d7-c5fc17f70aba/resource/7ba6476d-1ea8-4349-a6c3-88eefb9e8e5c/download/tmpy884zj1k.zip",
+  "bytes": 11069671,
+  "sha256": "e49528ec82ff9c69395985d3291fbd67ba62edcd34436a3d3413caec8e3258c7"
+}

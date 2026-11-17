@@ -1,0 +1,10 @@
+{
+  "args": {
+    "threads": 8,
+    "quick": false
+  },
+  "python": "3.12.16",
+  "started": "2026-11-04 08:54:21",
+  "finished": "2026-11-04 08:58:53",
+  "minutes": 4.5
+}

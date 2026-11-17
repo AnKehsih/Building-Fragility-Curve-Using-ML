@@ -1,0 +1,12 @@
+{
+  "args": {
+    "threads": 8,
+    "quick": false
+  },
+  "python": "3.12.16",
+  "started": "2026-11-05 12:35:28",
+  "shap_additivity_max_error_preferred": 1.687538997430238e-14,
+  "shap_additivity_max_error_neic_v9": 1.8207657603852567e-14,
+  "finished": "2026-11-05 12:41:03",
+  "minutes": 5.6
+}

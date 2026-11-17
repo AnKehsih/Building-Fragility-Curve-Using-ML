@@ -1,0 +1,32 @@
+fact,expected,observed,match
+rows,762106,762106,True
+columns,31,31,True
+districts,11,11,True
+municipalities (vdcmun_id),110,110,True
+wards,945,945,True
+duplicate building_id,0,0,True
+Grade 1 count,78815,78815,True
+Grade 2 count,87257,87257,True
+Grade 3 count,136412,136412,True
+Grade 4 count,183844,183844,True
+Grade 5 count,275766,275766,True
+damage_grade missing,12,12,True
+technical_solution_proposed missing,12,12,True
+position missing,1,1,True
+plan_configuration missing,1,1,True
+age_building == 999 (graded rows),3144,3144,True
+"age_building == 999 (all rows, incl. 1 ungraded)",3145,3145,True
+age_building max,999,999,True
+"age_building >= 995 (rule, graded rows)",3144,3144,True
+graded buildings with count_floors_post_eq == 0,261353,261353,True
+... of which Grade 5,261353,261353,True
+mapping: duplicate ward_id,0,0,True
+buildings whose ward is missing from mapping,0,0,True
+vdcmun_id disagrees with mapping,0,0,True
+district_id disagrees with mapping,0,0,True
+district ids match config.DISTRICTS,"[12, 20, 21, 22, 23, 24, 28, 29, 30, 31, 36]","[12, 20, 21, 22, 23, 24, 28, 29, 30, 31, 36]",True
+rows after dropping missing grade,762094,762094,True
+number of has_superstructure_* flags,11,11,True
+columns kept that are not in config feature lists,[],[],True
+municipality rows in municipalities.csv,110,110,True
+vdcmun_id unique in municipalities.csv,True,True,True

@@ -1,0 +1,12 @@
+district_id,district_name,pga_preferred,n_points_preferred,pga_neic_v9,n_points_neic_v9
+12,Okhaldhunga,0.2339,351,0.1068,354
+20,Sindhuli,0.4123,814,0.1624,817
+21,Ramechhap,0.4543,511,0.1999,522
+22,Dolakha,0.5196,711,0.2254,704
+23,Sindhupalchok,0.6165,824,0.372,823
+24,Kavrepalanchok,0.5835,456,0.3153,457
+28,Nuwakot,0.5692,398,0.5316,393
+29,Rasuwa,0.5453,491,0.2644,497
+30,Dhading,0.576,627,0.3503,629
+31,Makwanpur,0.4772,810,0.1885,802
+36,Gorkha,0.5617,1208,0.3127,1208

@@ -1,0 +1,3 @@
+label,grid_lon,grid_lat,pga_g,mmi,recorded_pga_g_approx,stdpga_ln
+preferred,85.317,27.717,0.367,7.5,0.16,
+neic_v9,85.315,27.705,0.323,7.89,0.16,0.19

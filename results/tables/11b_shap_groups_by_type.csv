@@ -1,0 +1,91 @@
+structural_type,group,mean_shap,n,pga_source
+adobe_mud,Construction,0.022906432162668477,858,preferred
+adobe_mud,Size,-0.04490782097813806,858,preferred
+adobe_mud,Age,0.03254306288011126,858,preferred
+adobe_mud,Site and layout,0.013902529524495059,858,preferred
+adobe_mud,All attributes,0.024444203589136737,858,preferred
+cement_mortar_masonry,Construction,0.03754117032968182,5827,preferred
+cement_mortar_masonry,Size,-0.19520168507836708,5827,preferred
+cement_mortar_masonry,Age,-0.2091555326248469,5827,preferred
+cement_mortar_masonry,Site and layout,-0.027532265566438827,5827,preferred
+cement_mortar_masonry,All attributes,-0.39434831293997097,5827,preferred
+mixed_strong_weak,Construction,0.04031239441110818,2403,preferred
+mixed_strong_weak,Size,-0.03005284807793201,2403,preferred
+mixed_strong_weak,Age,-0.0039128496754531426,2403,preferred
+mixed_strong_weak,Site and layout,-0.0009171376352219927,2403,preferred
+mixed_strong_weak,All attributes,0.005429559022501025,2403,preferred
+mud_mortar_brick,Construction,-0.02084812978555702,1353,preferred
+mud_mortar_brick,Size,-0.0715388073725746,1353,preferred
+mud_mortar_brick,Age,0.03445125798283721,1353,preferred
+mud_mortar_brick,Site and layout,0.0024678466412466353,1353,preferred
+mud_mortar_brick,All attributes,-0.055467832534047766,1353,preferred
+other,Construction,0.21555118438098736,146,preferred
+other,Size,-0.1887421576080543,146,preferred
+other,Age,-0.3739563721205692,146,preferred
+other,Site and layout,-0.025990236914909502,146,preferred
+other,All attributes,-0.3731375822625457,146,preferred
+rc_engineered,Construction,-0.2144220951480205,1375,preferred
+rc_engineered,Size,-0.04497507833597683,1375,preferred
+rc_engineered,Age,-0.2307935412672057,1375,preferred
+rc_engineered,Site and layout,0.003813706631571596,1375,preferred
+rc_engineered,All attributes,-0.4863770081196314,1375,preferred
+rc_non_engineered,Construction,-0.02987738767733726,2687,preferred
+rc_non_engineered,Size,-0.05511181374228926,2687,preferred
+rc_non_engineered,Age,-0.21331917483502483,2687,preferred
+rc_non_engineered,Site and layout,8.999123723922166e-06,2687,preferred
+rc_non_engineered,All attributes,-0.2982993771309274,2687,preferred
+stone_masonry,Construction,-0.015642670324852802,79491,preferred
+stone_masonry,Size,0.021087042392943286,79491,preferred
+stone_masonry,Age,0.03744663660382461,79491,preferred
+stone_masonry,Site and layout,0.006030356724606532,79491,preferred
+stone_masonry,All attributes,0.04892136539652162,79491,preferred
+timber_bamboo,Construction,0.19212238066563408,5860,preferred
+timber_bamboo,Size,-0.15586038498796,5860,preferred
+timber_bamboo,Age,-0.1747824446729642,5860,preferred
+timber_bamboo,Site and layout,-0.011077950459544274,5860,preferred
+timber_bamboo,All attributes,-0.14959839945483439,5860,preferred
+adobe_mud,Construction,0.07695780686505767,858,neic_v9
+adobe_mud,Size,-0.05666489856611984,858,neic_v9
+adobe_mud,Age,0.0323535231338853,858,neic_v9
+adobe_mud,Site and layout,0.00995288226267494,858,neic_v9
+adobe_mud,All attributes,0.06259931369549807,858,neic_v9
+cement_mortar_masonry,Construction,0.05472322625477392,5827,neic_v9
+cement_mortar_masonry,Size,-0.18016483824951085,5827,neic_v9
+cement_mortar_masonry,Age,-0.19048248818145527,5827,neic_v9
+cement_mortar_masonry,Site and layout,-0.02341283674539097,5827,neic_v9
+cement_mortar_masonry,All attributes,-0.3393369369215832,5827,neic_v9
+mixed_strong_weak,Construction,0.04561558266715203,2403,neic_v9
+mixed_strong_weak,Size,-0.023142127472749817,2403,neic_v9
+mixed_strong_weak,Age,-0.0021726110917479405,2403,neic_v9
+mixed_strong_weak,Site and layout,-0.0035690373388389024,2403,neic_v9
+mixed_strong_weak,All attributes,0.016731806763815367,2403,neic_v9
+mud_mortar_brick,Construction,-0.013139650737534174,1353,neic_v9
+mud_mortar_brick,Size,-0.06793426349243666,1353,neic_v9
+mud_mortar_brick,Age,0.03105770169614642,1353,neic_v9
+mud_mortar_brick,Site and layout,-0.001416197886320846,1353,neic_v9
+mud_mortar_brick,All attributes,-0.05143241042014525,1353,neic_v9
+other,Construction,0.16198386799866799,146,neic_v9
+other,Size,-0.16344478277657157,146,neic_v9
+other,Age,-0.3389322069076272,146,neic_v9
+other,Site and layout,-0.01824336056052975,146,neic_v9
+other,All attributes,-0.35863648224606054,146,neic_v9
+rc_engineered,Construction,-0.2695444518151586,1375,neic_v9
+rc_engineered,Size,-0.040529947424877866,1375,neic_v9
+rc_engineered,Age,-0.21239282033976012,1375,neic_v9
+rc_engineered,Site and layout,-0.0094327093473349,1375,neic_v9
+rc_engineered,All attributes,-0.5318999289271316,1375,neic_v9
+rc_non_engineered,Construction,-0.03228943279742281,2687,neic_v9
+rc_non_engineered,Size,-0.05067313902426246,2687,neic_v9
+rc_non_engineered,Age,-0.19809302026904005,2687,neic_v9
+rc_non_engineered,Site and layout,-0.00789483108587135,2687,neic_v9
+rc_non_engineered,All attributes,-0.28895042317659664,2687,neic_v9
+stone_masonry,Construction,-0.011190615942288058,79491,neic_v9
+stone_masonry,Size,0.01804061424352933,79491,neic_v9
+stone_masonry,Age,0.035354564216195296,79491,neic_v9
+stone_masonry,Site and layout,0.0059907094611097505,79491,neic_v9
+stone_masonry,All attributes,0.04819527197854632,79491,neic_v9
+timber_bamboo,Construction,0.17606614770343956,5860,neic_v9
+timber_bamboo,Size,-0.14999806901976956,5860,neic_v9
+timber_bamboo,Age,-0.1525206587244025,5860,neic_v9
+timber_bamboo,Site and layout,-0.003173439463290579,5860,neic_v9
+timber_bamboo,All attributes,-0.12962601950402308,5860,neic_v9

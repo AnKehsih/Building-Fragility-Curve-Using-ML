@@ -1,0 +1,9 @@
+,value
+points,19729.0
+max_match_distance_deg,0.0061
+pga_ratio_pref_over_neic_median,2.0765
+pga_ratio_q25,1.8143
+pga_ratio_q75,2.3546
+spearman_pga,0.9457
+mmi_median_pref,7.2
+mmi_median_neic,6.02

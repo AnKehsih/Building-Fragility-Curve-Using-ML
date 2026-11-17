@@ -1,0 +1,9 @@
+pga_source,model,variant,config,feature_set,pga_level,params,cv_rps
+preferred,decision_tree,08_default,max_depth3,full,municipality,"{""max_depth"": 3}",0.14684995438666704
+preferred,lightgbm,init_fragility,num_leaves31_min_child_samples500_initfragility,no_pga,municipality,"{""num_leaves"": 31, ""min_child_samples"": 500, ""init"": ""fragility""}",0.13422280290469227
+preferred,ordinal_logit,08_default,alpha100,full,municipality,"{""alpha"": 100.0}",0.13743239016290507
+preferred,random_forest,08_default,min_samples_leaf100,full,municipality,"{""min_samples_leaf"": 100}",0.13776357220983443
+neic_v9,decision_tree,08_default,max_depth4,full,municipality,"{""max_depth"": 4}",0.14173038297425047
+neic_v9,lightgbm,init_fragility,num_leaves31_min_child_samples500_initfragility,no_pga,municipality,"{""num_leaves"": 31, ""min_child_samples"": 500, ""init"": ""fragility""}",0.13088018978585023
+neic_v9,ordinal_logit,08_default,alpha100,full,municipality,"{""alpha"": 100.0}",0.13355796717997367
+neic_v9,random_forest,08_default,min_samples_leaf100,full,municipality,"{""min_samples_leaf"": 100}",0.1305956420951235

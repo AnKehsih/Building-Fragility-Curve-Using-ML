@@ -1,0 +1,70 @@
+run_id,model,config,feature_set,pga_source,pga_level,groups,params,selected,role
+r00,fragility,-,type_pga,preferred,municipality,baseline,{},False,headline baseline
+r01,fragility,-,type_pga,preferred,district,baseline,{},False,baseline
+r02,ordinal_logit,alpha1,full,preferred,municipality,08 grid,"{""alpha"": 1.0}",False,secondary
+r03,ordinal_logit,alpha100,full,preferred,municipality,08 grid,"{""alpha"": 100.0}",True,headline (validation-selected)
+r04,ordinal_logit,alpha10000,full,preferred,municipality,08 grid,"{""alpha"": 10000.0}",False,secondary
+r05,ordinal_logit,alpha100,type_pga,preferred,municipality,09 ablation,"{""alpha"": 100.0}",False,secondary
+r06,ordinal_logit,alpha100,no_pga,preferred,municipality,09 ablation,"{""alpha"": 100.0}",False,secondary
+r07,decision_tree,max_depth3,full,preferred,municipality,08 grid,"{""max_depth"": 3}",True,headline (validation-selected)
+r08,decision_tree,max_depth4,full,preferred,municipality,08 grid,"{""max_depth"": 4}",False,secondary
+r09,decision_tree,max_depth5,full,preferred,municipality,08 grid,"{""max_depth"": 5}",False,secondary
+r10,decision_tree,max_depth3,type_pga,preferred,municipality,09 ablation,"{""max_depth"": 3}",False,secondary
+r11,decision_tree,max_depth3,no_pga,preferred,municipality,09 ablation,"{""max_depth"": 3}",False,secondary
+r12,random_forest,min_samples_leaf20,full,preferred,municipality,08 grid,"{""min_samples_leaf"": 20}",False,secondary
+r13,random_forest,min_samples_leaf100,full,preferred,municipality,08 grid,"{""min_samples_leaf"": 100}",True,headline (validation-selected)
+r14,random_forest,min_samples_leaf100,type_pga,preferred,municipality,09 ablation,"{""min_samples_leaf"": 100}",False,secondary
+r15,random_forest,min_samples_leaf100,no_pga,preferred,municipality,09 ablation,"{""min_samples_leaf"": 100}",False,secondary
+r16,lightgbm,num_leaves31_min_child_samples100,full,preferred,municipality,08 grid,"{""num_leaves"": 31, ""min_child_samples"": 100}",False,secondary
+r17,lightgbm,num_leaves31_min_child_samples500,full,preferred,municipality,08 grid,"{""num_leaves"": 31, ""min_child_samples"": 500}",False,secondary
+r18,lightgbm,num_leaves127_min_child_samples100,full,preferred,municipality,08 grid,"{""num_leaves"": 127, ""min_child_samples"": 100}",False,secondary
+r19,lightgbm,num_leaves127_min_child_samples500,full,preferred,municipality,08 grid,"{""num_leaves"": 127, ""min_child_samples"": 500}",False,secondary
+r20,lightgbm,num_leaves31_min_child_samples500,type_pga,preferred,municipality,09 ablation,"{""num_leaves"": 31, ""min_child_samples"": 500}",False,secondary
+r21,lightgbm,num_leaves31_min_child_samples500,no_pga,preferred,municipality,09 ablation,"{""num_leaves"": 31, ""min_child_samples"": 500}",False,secondary
+r22,lightgbm,num_leaves31_min_child_samples500,full,preferred,district,09 LightGBM variant,"{""num_leaves"": 31, ""min_child_samples"": 500}",False,secondary
+r23,lightgbm,num_leaves31_min_child_samples500_pga_bins5,full,preferred,municipality,09 LightGBM variant,"{""num_leaves"": 31, ""min_child_samples"": 500, ""pga_bins"": 5}",False,secondary
+r24,lightgbm,num_leaves31_min_child_samples500_pga_bins10,full,preferred,municipality,09 LightGBM variant,"{""num_leaves"": 31, ""min_child_samples"": 500, ""pga_bins"": 10}",False,secondary
+r25,lightgbm,num_leaves31_min_child_samples500_initfragility,no_pga,preferred,municipality,09 LightGBM variant,"{""num_leaves"": 31, ""min_child_samples"": 500, ""init"": ""fragility""}",True,headline (validation-selected)
+r26,random_forest,min_samples_leaf500,full,preferred,municipality,post-hoc 09d,"{""min_samples_leaf"": 500}",False,post-hoc
+r27,random_forest,min_samples_leaf2000,full,preferred,municipality,post-hoc 09d,"{""min_samples_leaf"": 2000}",False,post-hoc
+r28,lightgbm,num_leaves31_min_child_samples500_n_rounds10,full,preferred,municipality,post-hoc 09d,"{""num_leaves"": 31, ""min_child_samples"": 500, ""n_rounds"": 10}",False,post-hoc
+r29,lightgbm,num_leaves31_min_child_samples500_n_rounds20,full,preferred,municipality,post-hoc 09d,"{""num_leaves"": 31, ""min_child_samples"": 500, ""n_rounds"": 20}",False,post-hoc
+r30,lightgbm,num_leaves31_min_child_samples500_n_rounds40,full,preferred,municipality,post-hoc 09d,"{""num_leaves"": 31, ""min_child_samples"": 500, ""n_rounds"": 40}",False,post-hoc
+r31,lightgbm,num_leaves31_min_child_samples500_n_rounds100,full,preferred,municipality,post-hoc 09d,"{""num_leaves"": 31, ""min_child_samples"": 500, ""n_rounds"": 100}",False,post-hoc
+r32,lightgbm,num_leaves31_min_child_samples500_initfragility,no_pga_reduced,preferred,municipality,post-hoc 09f,"{""num_leaves"": 31, ""min_child_samples"": 500, ""init"": ""fragility""}",False,post-hoc
+r33,lightgbm,num_leaves31_min_child_samples500_initfragility,no_pga,preferred,district,post-hoc 10,"{""num_leaves"": 31, ""min_child_samples"": 500, ""init"": ""fragility""}",False,post-hoc
+r34,ordinal_logit,alpha100,full_reduced,preferred,municipality,post-hoc 09f,"{""alpha"": 100.0}",False,post-hoc
+r35,ordinal_logit,alpha100,full,preferred,district,post-hoc 10,"{""alpha"": 100.0}",False,post-hoc
+r36,fragility,-,type_pga,neic_v9,municipality,baseline,{},False,headline baseline
+r37,fragility,-,type_pga,neic_v9,district,baseline,{},False,baseline
+r38,ordinal_logit,alpha1,full,neic_v9,municipality,08 grid,"{""alpha"": 1.0}",False,secondary
+r39,ordinal_logit,alpha100,full,neic_v9,municipality,08 grid,"{""alpha"": 100.0}",True,headline (validation-selected)
+r40,ordinal_logit,alpha10000,full,neic_v9,municipality,08 grid,"{""alpha"": 10000.0}",False,secondary
+r41,ordinal_logit,alpha100,type_pga,neic_v9,municipality,09 ablation,"{""alpha"": 100.0}",False,secondary
+r42,decision_tree,max_depth3,full,neic_v9,municipality,08 grid,"{""max_depth"": 3}",False,secondary
+r43,decision_tree,max_depth4,full,neic_v9,municipality,08 grid,"{""max_depth"": 4}",True,headline (validation-selected)
+r44,decision_tree,max_depth5,full,neic_v9,municipality,08 grid,"{""max_depth"": 5}",False,secondary
+r45,decision_tree,max_depth4,type_pga,neic_v9,municipality,09 ablation,"{""max_depth"": 4}",False,secondary
+r46,random_forest,min_samples_leaf20,full,neic_v9,municipality,08 grid,"{""min_samples_leaf"": 20}",False,secondary
+r47,random_forest,min_samples_leaf100,full,neic_v9,municipality,08 grid,"{""min_samples_leaf"": 100}",True,headline (validation-selected)
+r48,random_forest,min_samples_leaf100,type_pga,neic_v9,municipality,09 ablation,"{""min_samples_leaf"": 100}",False,secondary
+r49,lightgbm,num_leaves31_min_child_samples100,full,neic_v9,municipality,08 grid,"{""num_leaves"": 31, ""min_child_samples"": 100}",False,secondary
+r50,lightgbm,num_leaves31_min_child_samples500,full,neic_v9,municipality,08 grid,"{""num_leaves"": 31, ""min_child_samples"": 500}",False,secondary
+r51,lightgbm,num_leaves127_min_child_samples100,full,neic_v9,municipality,08 grid,"{""num_leaves"": 127, ""min_child_samples"": 100}",False,secondary
+r52,lightgbm,num_leaves127_min_child_samples500,full,neic_v9,municipality,08 grid,"{""num_leaves"": 127, ""min_child_samples"": 500}",False,secondary
+r53,lightgbm,num_leaves31_min_child_samples500,type_pga,neic_v9,municipality,09 ablation,"{""num_leaves"": 31, ""min_child_samples"": 500}",False,secondary
+r54,lightgbm,num_leaves31_min_child_samples500,full,neic_v9,district,09 LightGBM variant,"{""num_leaves"": 31, ""min_child_samples"": 500}",False,secondary
+r55,lightgbm,num_leaves31_min_child_samples500_pga_bins5,full,neic_v9,municipality,09 LightGBM variant,"{""num_leaves"": 31, ""min_child_samples"": 500, ""pga_bins"": 5}",False,secondary
+r56,lightgbm,num_leaves31_min_child_samples500_pga_bins10,full,neic_v9,municipality,09 LightGBM variant,"{""num_leaves"": 31, ""min_child_samples"": 500, ""pga_bins"": 10}",False,secondary
+r57,lightgbm,num_leaves31_min_child_samples500_initfragility,no_pga,neic_v9,municipality,09 LightGBM variant,"{""num_leaves"": 31, ""min_child_samples"": 500, ""init"": ""fragility""}",True,headline (validation-selected)
+r58,random_forest,min_samples_leaf500,full,neic_v9,municipality,post-hoc 09d,"{""min_samples_leaf"": 500}",False,post-hoc
+r59,random_forest,min_samples_leaf2000,full,neic_v9,municipality,post-hoc 09d,"{""min_samples_leaf"": 2000}",False,post-hoc
+r60,lightgbm,num_leaves31_min_child_samples500_n_rounds10,full,neic_v9,municipality,post-hoc 09d,"{""num_leaves"": 31, ""min_child_samples"": 500, ""n_rounds"": 10}",False,post-hoc
+r61,lightgbm,num_leaves31_min_child_samples500_n_rounds20,full,neic_v9,municipality,post-hoc 09d,"{""num_leaves"": 31, ""min_child_samples"": 500, ""n_rounds"": 20}",False,post-hoc
+r62,lightgbm,num_leaves31_min_child_samples500_n_rounds40,full,neic_v9,municipality,post-hoc 09d,"{""num_leaves"": 31, ""min_child_samples"": 500, ""n_rounds"": 40}",False,post-hoc
+r63,lightgbm,num_leaves31_min_child_samples500_n_rounds100,full,neic_v9,municipality,post-hoc 09d,"{""num_leaves"": 31, ""min_child_samples"": 500, ""n_rounds"": 100}",False,post-hoc
+r64,lightgbm,num_leaves31_min_child_samples500_initfragility,no_pga_reduced,neic_v9,municipality,post-hoc 09f,"{""num_leaves"": 31, ""min_child_samples"": 500, ""init"": ""fragility""}",False,post-hoc
+r65,lightgbm,num_leaves31_min_child_samples500_initfragility,no_pga,neic_v9,district,post-hoc 10,"{""num_leaves"": 31, ""min_child_samples"": 500, ""init"": ""fragility""}",False,post-hoc
+r66,ordinal_logit,alpha100,full_reduced,neic_v9,municipality,post-hoc 09f,"{""alpha"": 100.0}",False,post-hoc
+r67,ordinal_logit,alpha100,full,neic_v9,district,post-hoc 10,"{""alpha"": 100.0}",False,post-hoc
+r68,majority,-,type_pga,preferred,municipality,baseline,{},False,baseline

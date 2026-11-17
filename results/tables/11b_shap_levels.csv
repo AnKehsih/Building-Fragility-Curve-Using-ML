@@ -1,0 +1,175 @@
+feature,level,n,mean_shap,pga_source
+count_floors_pre_eq,1,16525,-0.1590256079604314,preferred
+count_floors_pre_eq,2,61040,-0.09964524975983576,preferred
+count_floors_pre_eq,3,21775,0.4360839393854473,preferred
+count_floors_pre_eq,4,508,0.38876212728070875,preferred
+count_floors_pre_eq,5,117,0.3481419904088665,preferred
+count_floors_pre_eq,6,26,0.35675073980405264,preferred
+count_floors_pre_eq,7,9,0.3271382834286488,preferred
+age_building,"(-0.001, 7.0]",22438,-0.40610532738247396,preferred
+age_building,"(13.0, 20.0]",22772,0.06987846946677652,preferred
+age_building,"(20.0, 30.0]",18436,0.2083300143453249,preferred
+age_building,"(30.0, 200.0]",16905,0.35885725794948314,preferred
+age_building,"(7.0, 13.0]",19147,-0.12872889452195552,preferred
+plinth_area_sq_ft,"(260.0, 315.0]",19578,0.07851088997720544,preferred
+plinth_area_sq_ft,"(315.0, 390.0]",20011,0.02085217652290213,preferred
+plinth_area_sq_ft,"(390.0, 504.0]",19505,-0.044078678199448024,preferred
+plinth_area_sq_ft,"(504.0, 5000.0]",19876,-0.081165944131397,preferred
+plinth_area_sq_ft,"(69.999, 260.0]",21030,0.028165003846604603,preferred
+height_ft_pre_eq,"(12.0, 14.0]",16691,-0.001153026881463267,preferred
+height_ft_pre_eq,"(14.0, 16.0]",17332,0.016790279094364514,preferred
+height_ft_pre_eq,"(16.0, 20.0]",24288,0.03590094797360696,preferred
+height_ft_pre_eq,"(20.0, 99.0]",14413,-0.013538122728048748,preferred
+height_ft_pre_eq,"(5.999, 12.0]",27276,-0.10550531431117798,preferred
+land_surface_condition,Flat,82699,-0.02354236086643399,preferred
+land_surface_condition,Moderate slope,13958,0.03848964298851631,preferred
+land_surface_condition,Steep slope,3343,0.490771495190479,preferred
+position,Attached-1 side,16489,0.10209001814306085,preferred
+position,Attached-2 side,3294,0.009675625585847232,preferred
+position,Attached-3 side,148,0.035894693410782864,preferred
+position,Not attached,80069,-0.021117947183283674,preferred
+plan_configuration,Building with Central Courtyard,12,-0.4759899374925561,preferred
+plan_configuration,E-shape,19,-0.40311247554523505,preferred
+plan_configuration,H-shape,9,-0.5065826357268469,preferred
+plan_configuration,L-shape,1282,-0.32609128865526704,preferred
+plan_configuration,Multi-projected,123,-0.8860788848421098,preferred
+plan_configuration,Others,59,-0.8264670704065977,preferred
+plan_configuration,Rectangular,95962,0.0008963441209398445,preferred
+plan_configuration,Square,2355,0.24296985080983355,preferred
+plan_configuration,T-shape,116,-0.2130575660099197,preferred
+plan_configuration,U-shape,63,-0.5052092995084572,preferred
+foundation_type,Bamboo/Timber,8586,-0.431255671182339,preferred
+foundation_type,Cement-Stone/Brick,5174,-0.034642477819491896,preferred
+foundation_type,Mud mortar-Stone/Brick,81778,0.06293399729899714,preferred
+foundation_type,Other,660,-0.13419932282444086,preferred
+foundation_type,RC,3802,-0.28718291571328913,preferred
+roof_type,Bamboo/Timber-Heavy roof,29978,0.11407644136283118,preferred
+roof_type,Bamboo/Timber-Light roof,64767,-0.02318405473207937,preferred
+roof_type,RCC/RB/RBC,5255,-0.3410737213483236,preferred
+ground_floor_type,Brick/Stone,9252,0.1296543767750884,preferred
+ground_floor_type,Mud,80532,0.03488231882803805,preferred
+ground_floor_type,Other,149,-0.0956656143008762,preferred
+ground_floor_type,RC,9542,-0.4498137348715714,preferred
+ground_floor_type,Timber,525,-0.09452796938336143,preferred
+other_floor_type,Not applicable,16525,-0.06827300300737521,preferred
+other_floor_type,RCC/RB/RBC,3701,-0.20988050124869273,preferred
+other_floor_type,TImber/Bamboo-Mud,62714,-0.018949295015758802,preferred
+other_floor_type,Timber-Planck,17060,0.16413693882680414,preferred
+structural_type,adobe_mud,858,-0.012672627332569008,preferred
+structural_type,cement_mortar_masonry,5827,0.5951034365677647,preferred
+structural_type,mixed_strong_weak,2403,-0.12091797087415912,preferred
+structural_type,mud_mortar_brick,1353,0.12807569192834795,preferred
+structural_type,other,146,0.4488060951234304,preferred
+structural_type,rc_engineered,1375,0.748126552127612,preferred
+structural_type,rc_non_engineered,2687,0.8240521762790424,preferred
+structural_type,stone_masonry,79491,-0.09704810469362889,preferred
+structural_type,timber_bamboo,5860,0.3081042092562484,preferred
+has_superstructure_adobe_mud,no,97297,0.002563228886330682,preferred
+has_superstructure_adobe_mud,yes,2703,-0.1175335752906035,preferred
+has_superstructure_mud_mortar_stone,no,19264,0.06141024746298964,preferred
+has_superstructure_mud_mortar_stone,yes,80736,-0.016105410422202218,preferred
+has_superstructure_stone_flag,no,96087,-0.0064920920385755825,preferred
+has_superstructure_stone_flag,yes,3913,0.1493848225004156,preferred
+has_superstructure_cement_mortar_stone,no,98218,-0.011189291820209208,preferred
+has_superstructure_cement_mortar_stone,yes,1782,0.449997445265519,preferred
+has_superstructure_mud_mortar_brick,no,98388,0.0021422229674984785,preferred
+has_superstructure_mud_mortar_brick,yes,1612,-0.12378483185555894,preferred
+has_superstructure_cement_mortar_brick,no,92816,0.009960729574501241,preferred
+has_superstructure_cement_mortar_brick,yes,7184,-0.13876852088811426,preferred
+has_superstructure_timber,no,71737,0.06759183672110976,preferred
+has_superstructure_timber,yes,28263,-0.16885469726305427,preferred
+has_superstructure_bamboo,no,90972,-0.01869398827542266,preferred
+has_superstructure_bamboo,yes,9028,0.1583614816349721,preferred
+has_superstructure_rc_non_engineered,no,96032,-0.0036535545732499525,preferred
+has_superstructure_rc_non_engineered,yes,3968,0.16475006199274506,preferred
+has_superstructure_rc_engineered,no,98594,-3.054402581375887e-05,preferred
+has_superstructure_rc_engineered,yes,1406,0.007131040874493856,preferred
+has_superstructure_other,no,98650,0.003498400916136197,preferred
+has_superstructure_other,yes,1350,-0.2519880476211548,preferred
+count_floors_pre_eq,1,16525,-0.14892559765754995,neic_v9
+count_floors_pre_eq,2,61040,-0.1085973766830319,neic_v9
+count_floors_pre_eq,3,21775,0.4402652473528108,neic_v9
+count_floors_pre_eq,4,508,0.37935152939332656,neic_v9
+count_floors_pre_eq,5,117,0.33887422829746516,neic_v9
+count_floors_pre_eq,6,26,0.34091414492321015,neic_v9
+count_floors_pre_eq,7,9,0.3184737369298548,neic_v9
+age_building,"(-0.001, 7.0]",22438,-0.36182293777328,neic_v9
+age_building,"(13.0, 20.0]",22772,0.07264226255544484,neic_v9
+age_building,"(20.0, 30.0]",18436,0.17974032582762314,neic_v9
+age_building,"(30.0, 200.0]",16905,0.29752618430500744,neic_v9
+age_building,"(7.0, 13.0]",19147,-0.09568400616074575,neic_v9
+plinth_area_sq_ft,"(260.0, 315.0]",19578,0.052731395157453176,neic_v9
+plinth_area_sq_ft,"(315.0, 390.0]",20011,0.03486916611541035,neic_v9
+plinth_area_sq_ft,"(390.0, 504.0]",19505,-0.02765615189261659,neic_v9
+plinth_area_sq_ft,"(504.0, 5000.0]",19876,-0.07575927763928687,neic_v9
+plinth_area_sq_ft,"(69.999, 260.0]",21030,0.011284821700204097,neic_v9
+height_ft_pre_eq,"(12.0, 14.0]",16691,-0.019450878847058074,neic_v9
+height_ft_pre_eq,"(14.0, 16.0]",17332,0.013846486043790376,neic_v9
+height_ft_pre_eq,"(16.0, 20.0]",24288,0.03560890406986296,neic_v9
+height_ft_pre_eq,"(20.0, 99.0]",14413,-0.008930026323071077,neic_v9
+height_ft_pre_eq,"(5.999, 12.0]",27276,-0.08144350298298451,neic_v9
+land_surface_condition,Flat,82699,-0.013977314837917813,neic_v9
+land_surface_condition,Moderate slope,13958,0.008425518366923618,neic_v9
+land_surface_condition,Steep slope,3343,0.35871318183464196,neic_v9
+position,Attached-1 side,16489,0.025127693097012772,neic_v9
+position,Attached-2 side,3294,-0.0373150710151689,neic_v9
+position,Attached-3 side,148,0.0035307870808270066,neic_v9
+position,Not attached,80069,-0.002604068271374674,neic_v9
+plan_configuration,Building with Central Courtyard,12,-0.3952980922407446,neic_v9
+plan_configuration,E-shape,19,-0.2632894196741508,neic_v9
+plan_configuration,H-shape,9,-0.40892755641628326,neic_v9
+plan_configuration,L-shape,1282,-0.3054902144254457,neic_v9
+plan_configuration,Multi-projected,123,-0.6266520686878537,neic_v9
+plan_configuration,Others,59,-0.6282254329791318,neic_v9
+plan_configuration,Rectangular,95962,0.0030513109750512453,neic_v9
+plan_configuration,Square,2355,0.13211797391892247,neic_v9
+plan_configuration,T-shape,116,-0.19030540550438743,neic_v9
+plan_configuration,U-shape,63,-0.39020541640144313,neic_v9
+foundation_type,Bamboo/Timber,8586,-0.24816950981261457,neic_v9
+foundation_type,Cement-Stone/Brick,5174,-0.04995902964463384,neic_v9
+foundation_type,Mud mortar-Stone/Brick,81778,0.03501265427199688,neic_v9
+foundation_type,Other,660,-0.16213550030366009,neic_v9
+foundation_type,RC,3802,-0.2982814069853624,neic_v9
+roof_type,Bamboo/Timber-Heavy roof,29978,0.19160252336160097,neic_v9
+roof_type,Bamboo/Timber-Light roof,64767,-0.06589981089412784,neic_v9
+roof_type,RCC/RB/RBC,5255,-0.29658418473226056,neic_v9
+ground_floor_type,Brick/Stone,9252,0.054643596159732244,neic_v9
+ground_floor_type,Mud,80532,0.036457847671831564,neic_v9
+ground_floor_type,Other,149,-0.036895050607579756,neic_v9
+ground_floor_type,RC,9542,-0.36699077135504427,neic_v9
+ground_floor_type,Timber,525,-0.04512565185451857,neic_v9
+other_floor_type,Not applicable,16525,-0.06079327232125086,neic_v9
+other_floor_type,RCC/RB/RBC,3701,-0.20421916868279183,neic_v9
+other_floor_type,TImber/Bamboo-Mud,62714,-0.022013515990102577,neic_v9
+other_floor_type,Timber-Planck,17060,0.17586110515855954,neic_v9
+structural_type,adobe_mud,858,0.06377805527157039,neic_v9
+structural_type,cement_mortar_masonry,5827,0.5118407653630359,neic_v9
+structural_type,mixed_strong_weak,2403,-0.11115820032791526,neic_v9
+structural_type,mud_mortar_brick,1353,0.07751369162655491,neic_v9
+structural_type,other,146,0.3874411551988882,neic_v9
+structural_type,rc_engineered,1375,0.6227888934288148,neic_v9
+structural_type,rc_non_engineered,2687,0.7004620865766923,neic_v9
+structural_type,stone_masonry,79491,-0.06813426357194288,neic_v9
+structural_type,timber_bamboo,5860,0.19648206470993507,neic_v9
+has_superstructure_adobe_mud,no,97297,0.002799008292038973,neic_v9
+has_superstructure_adobe_mud,yes,2703,-0.11926963328371991,neic_v9
+has_superstructure_mud_mortar_stone,no,19264,0.07947662957159564,neic_v9
+has_superstructure_mud_mortar_stone,yes,80736,-0.015817642895002107,neic_v9
+has_superstructure_stone_flag,no,96087,-0.010200387050902659,neic_v9
+has_superstructure_stone_flag,yes,3913,0.2366309919431181,neic_v9
+has_superstructure_cement_mortar_stone,no,98218,-0.008976479679071985,neic_v9
+has_superstructure_cement_mortar_stone,yes,1782,0.3733933082150713,neic_v9
+has_superstructure_mud_mortar_brick,no,98388,0.001074817802373898,neic_v9
+has_superstructure_mud_mortar_brick,yes,1612,-0.05522865121230658,neic_v9
+has_superstructure_cement_mortar_brick,no,92816,0.0072403334650705834,neic_v9
+has_superstructure_cement_mortar_brick,yes,7184,-0.10859950447517677,neic_v9
+has_superstructure_timber,no,71737,0.048203039998493846,neic_v9
+has_superstructure_timber,yes,28263,-0.11969601628136368,neic_v9
+has_superstructure_bamboo,no,90972,-0.012291121794495636,neic_v9
+has_superstructure_bamboo,yes,9028,0.0979598757245005,neic_v9
+has_superstructure_rc_non_engineered,no,96032,-0.004548492156107901,neic_v9
+has_superstructure_rc_non_engineered,yes,3968,0.15815636236012107,neic_v9
+has_superstructure_rc_engineered,no,98594,1.046589604443941e-05,neic_v9
+has_superstructure_rc_engineered,yes,1406,0.0030503570373103584,neic_v9
+has_superstructure_other,no,98650,0.0038299321260458707,neic_v9
+has_superstructure_other,yes,1350,-0.2942106409337608,neic_v9

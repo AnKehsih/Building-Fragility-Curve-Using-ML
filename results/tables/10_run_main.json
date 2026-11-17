@@ -1,0 +1,21 @@
+{
+  "args": {
+    "n_jobs": 8,
+    "threads": 3,
+    "tag": "main",
+    "resume": false,
+    "quick": false,
+    "report": false
+  },
+  "python": "3.12.16",
+  "started": "2026-11-04 08:05:41",
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "sklearn": "1.9.1",
+    "lightgbm": "4.7.0",
+    "joblib": "1.6.0"
+  },
+  "finished": "2026-11-04 08:12:05",
+  "minutes": 6.4
+}

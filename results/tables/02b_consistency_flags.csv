@@ -1,0 +1,12 @@
+rule,severity,description,n,share,share_severe_flagged,share_severe_not_flagged
+c1_one_storey_has_upper_floor,contradiction,1 storey but other_floor_type is not 'Not applicable',367,0.0006,0.1144,0.6128
+c2_multi_storey_no_upper_floor,contradiction,>1 storey but other_floor_type is 'Not applicable',350,0.0005,0.2257,0.6128
+p1_storey_height_lt_5ft,implausible,height_ft_pre_eq / storeys < 5 ft,5132,0.0077,0.5715,0.6129
+p2_storey_height_gt_20ft,implausible,height_ft_pre_eq / storeys > 20 ft,617,0.0009,0.8266,0.6123
+p3_plinth_lt_100sqft,implausible,plinth area < 100 sq ft (about 9 m2),2263,0.0034,0.5219,0.6129
+u1_rc_eng_without_rc_elements,unusual,"engineered RC flag, but no RC foundation, RC ground floor or RCC roof",90,0.0001,0.3889,0.6126
+u2_rc_on_mud_foundation,unusual,RC flag with a mud-mortar stone/brick foundation,8312,0.0125,0.5592,0.6132
+u3_rcc_roof_on_weak_masonry_only,unusual,RCC roof on a building whose only load-bearing material is weak (mud/dry/adobe),1116,0.0017,0.4543,0.6128
+u4_rc_ground_floor_no_strong_system,unusual,RC ground floor but no RC or cement-mortar flag,8825,0.0133,0.4236,0.6151
+any_contradiction_or_implausible,summary,c* or p* rule,8338,0.0126,0.5307,0.6136
+any_flag,summary,any rule,25844,0.0389,0.5032,0.617

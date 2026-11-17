@@ -1,0 +1,13 @@
+scheme,pga_source,config,min,50%,max
+municipality,neic_v9,num_leaves127_min_child_samples100,12.0,40.0,71.0
+municipality,neic_v9,num_leaves127_min_child_samples500,12.0,37.0,71.0
+municipality,neic_v9,num_leaves31_min_child_samples100,12.0,64.0,148.0
+municipality,neic_v9,num_leaves31_min_child_samples500,12.0,54.0,81.0
+municipality,preferred,num_leaves127_min_child_samples100,10.0,26.0,60.0
+municipality,preferred,num_leaves127_min_child_samples500,10.0,26.0,56.0
+municipality,preferred,num_leaves31_min_child_samples100,13.0,31.0,104.0
+municipality,preferred,num_leaves31_min_child_samples500,12.0,31.0,104.0
+random,preferred,num_leaves127_min_child_samples100,972.0,1022.0,1163.0
+random,preferred,num_leaves127_min_child_samples500,968.0,1016.0,1175.0
+random,preferred,num_leaves31_min_child_samples100,2948.0,2993.0,2999.0
+random,preferred,num_leaves31_min_child_samples500,2990.0,2999.0,3000.0

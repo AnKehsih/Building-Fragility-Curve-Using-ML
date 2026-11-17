@@ -1,0 +1,18 @@
+{
+  "frozen_at": "2026-11-05 11:43:46",
+  "headline_rule": "Headline (fixed before the test): for each map, each of the four validation-selected models (09b_selected_final.csv) against the fragility curves of the same map (municipality PGA), paired building by building on the test district. Primary metric RPS; also severe-damage Brier score and log loss. An improvement is claimed only if the mean paired RPS difference is negative AND its 95% cluster-bootstrap interval over the test district's 13 municipalities (2,000 resamples) excludes zero; otherwise 'no clear difference'. The number of municipalities where the model is better is reported alongside. All other runs are reported in a secondary table; the best test score among them is not a result. Post-hoc runs are labelled post-hoc.",
+  "n_runs": 69,
+  "sha256": {
+    "code/13_final_test.py": "526b36f3f770f26f97ad458f02e72c36280474d4bc3db50e58c6e73a53653cd5",
+    "code/config.py": "054a17706f0e910fe39845500206bf998ee3dd2a782599936b3522cf45ea846e",
+    "code/utils/models.py": "3966e9cf7a47223379c69176976060172df808f0a359d96431a68ce45cefc9dd",
+    "code/utils/ordinal.py": "937e6654995bbaf0f39d123fde329ad0463bb6f283e8be4e7f637f96aebc5937",
+    "code/utils/fragility.py": "a9a5a2c68a939c446dd89781280d1e37db0d9bd50dd97bb5d08792b61ca365bf",
+    "code/utils/data.py": "b285cfffffb0934d0645f023205e31e46f7aafaa6ba993a5f276f94bd7956238",
+    "code/utils/preprocessing.py": "8a712d045b63396fc64b4ddb3dbf6072b375dcac811b2833f07a4f58a58f3f87",
+    "code/utils/metrics.py": "6daf3265754053782a8f12425e6fcf0abc4f9e516d4649f24224814e614ffe2a",
+    "results/tables/08b_selected.csv": "68146993741fc8fa9ee19c71c4551d926af3c2324717efa1e22d5df24890c573",
+    "results/tables/09b_selected_final.csv": "35977e801422bb10ca61b6d3bab736f5815f00024a4a929795d243e0e361e489",
+    "results/tables/13_freeze_list.csv": "0cb686f22281dbf67ea01ec74c29526ba0ae10b710e31088c971999edc1c37b3"
+  }
+}

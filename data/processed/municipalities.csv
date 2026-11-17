@@ -1,0 +1,111 @@
+vdcmun_id,vdcmun_name,district_id,district_name
+1201,Champadevi Rural Municipality,12,Okhaldhunga
+1202,Chishankhu Gadhi Rural Municipality,12,Okhaldhunga
+1203,Khiji Demba Rural Municipality,12,Okhaldhunga
+1204,Likhu Rural Municipality,12,Okhaldhunga
+1205,Manebhanjyang Rural Municipality,12,Okhaldhunga
+1206,Molung Rural Municipality,12,Okhaldhunga
+1207,Siddhicharan Municipality,12,Okhaldhunga
+1208,Sunkoshi Rural Municipality,12,Okhaldhunga
+2001,Dudhouli Municipality,20,Sindhuli
+2002,Ghyanglekha Rural Municipality,20,Sindhuli
+2003,Golanjor Rural Municipality,20,Sindhuli
+2004,Hariharpurgaghi Rural Municipality,20,Sindhuli
+2005,Kamalamai Municipality,20,Sindhuli
+2006,Marin Rural Municipality,20,Sindhuli
+2007,Phikkal Rural Municipality,20,Sindhuli
+2008,Sunkoshi Rural Municipality,20,Sindhuli
+2009,Tinpatan Rural Municipality,20,Sindhuli
+2101,Doramba Rural Municipality,21,Ramechhap
+2102,Gokulganga Rural Municipality,21,Ramechhap
+2103,Khandadevi Rural Municipality,21,Ramechhap
+2104,Likhu Tamakoshi Rural Municipality,21,Ramechhap
+2105,Manthali  Municipality,21,Ramechhap
+2106,Ramechhap Municipality,21,Ramechhap
+2107,Sunapati Rural Municipality,21,Ramechhap
+2108,Umakunda Rural Municipality,21,Ramechhap
+2201,Baitedhar Rural Municipality,22,Dolakha
+2202,Bhimeshwor Municipality,22,Dolakha
+2203,Bigu Rural Municipality,22,Dolakha
+2204,Gaurishankar Rural Municipality,22,Dolakha
+2205,Jiri Municipality,22,Dolakha
+2206,Kalinchowk Rural Municipality,22,Dolakha
+2207,Melung Rural Municipality,22,Dolakha
+2208,Shailung Rural Municipality,22,Dolakha
+2209,Tamakoshi Rural Municipality,22,Dolakha
+2301,Bahrabise Municipality,23,Sindhupalchok
+2302,Balephi Rural Municipality,23,Sindhupalchok
+2303,Bhotekoshi Rural Municipality,23,Sindhupalchok
+2304,Choutara Sangachowkgadhi Municipality,23,Sindhupalchok
+2305,Helambu Rural Municipality,23,Sindhupalchok
+2306,Indrawoti Rural Municipality,23,Sindhupalchok
+2307,Jugal Rural Municipality,23,Sindhupalchok
+2309,Lisankhu Pakhar Rural Municipality,23,Sindhupalchok
+2310,Melanchi Municipality,23,Sindhupalchok
+2311,Panchpokhari Thangpal Rural Municipality,23,Sindhupalchok
+2312,Sunkoshi Rural Municipality,23,Sindhupalchok
+2313,Tripurasundari Rural Municipality,23,Sindhupalchok
+2401,Banepa Municipality,24,Kavrepalanchok
+2402,Bethanchowk Rural Municipality,24,Kavrepalanchok
+2403,Bhumlu Rural Municipality,24,Kavrepalanchok
+2404,Chauri Deurali Rural Municipality,24,Kavrepalanchok
+2405,Dhulikhel Municipality,24,Kavrepalanchok
+2406,Khanikhola Rural Municipality,24,Kavrepalanchok
+2407,Mahabharat Rural Municipality,24,Kavrepalanchok
+2408,Mandan Deupur Municipality,24,Kavrepalanchok
+2409,Namobuddha Municipality,24,Kavrepalanchok
+2410,Panauti Municipality,24,Kavrepalanchok
+2411,Panchkhal Municipality,24,Kavrepalanchok
+2412,Roshi Rural Municipality,24,Kavrepalanchok
+2413,Temal Rural Municipality,24,Kavrepalanchok
+2801,Belkotgadhi Municipality,28,Nuwakot
+2802,Bidur Municipality,28,Nuwakot
+2803,Dupcheshwor Rural Municipality,28,Nuwakot
+2804,Kakani Rural Municipality,28,Nuwakot
+2805,Kispang Rural Municipality,28,Nuwakot
+2807,Likhu Rural Municipality,28,Nuwakot
+2808,Myagang Rural Municipality,28,Nuwakot
+2809,Panchakanya Rural Municipality,28,Nuwakot
+2810,Shivapuri Rural Municipality,28,Nuwakot
+2811,Suryagadhi Rural Municipality,28,Nuwakot
+2812,Tadi Rural Municipality,28,Nuwakot
+2813,Tarakeshwor Rural Municipality,28,Nuwakot
+2901,Aamachhodingmo Rural Municipality,29,Rasuwa
+2902,Gosaikunda Rural Municipality,29,Rasuwa
+2903,Kalika Rural Municipality,29,Rasuwa
+2904,Naukunda Rural Municipality,29,Rasuwa
+2905,Uttargaya Rural Municipality,29,Rasuwa
+3001,Benighat Rorang Rural Municipality,30,Dhading
+3002,Dhunibenshi Municipality,30,Dhading
+3003,Gajuri Rural Municipality,30,Dhading
+3004,Galchhi Rural Municipality,30,Dhading
+3005,Ganga Jamuna Rural Municipality,30,Dhading
+3006,Jwalamukhi Rural Municipality,30,Dhading
+3007,Khaniyabas Rural Municipality,30,Dhading
+3008,Netrawati Dabajong Rural Municipality,30,Dhading
+3009,Neelakantha Municipality,30,Dhading
+3010,Rubi Valley Rural Municipality,30,Dhading
+3011,Siddhalek Rural Municipality,30,Dhading
+3012,Thakre Rural Municipality,30,Dhading
+3013,Tripurasundari Rural Municipality,30,Dhading
+3101,Bagmati Rural Municipality,31,Makwanpur
+3102,Bakaiya Rural Municipality,31,Makwanpur
+3103,Bhimphedi Rural Municipality,31,Makwanpur
+3104,Hetauda Sub-Metropolitian City,31,Makwanpur
+3105,Indrasarowar Rural Municipality,31,Makwanpur
+3106,Kailash Rural Municipality,31,Makwanpur
+3107,Makawanpurgadhi Rural Municipality,31,Makwanpur
+3108,Manahari Rural Municipality,31,Makwanpur
+3110,Raksirang Rural Municipality,31,Makwanpur
+3111,Thaha Municipality,31,Makwanpur
+3601,Aarughat Rural Municipality,36,Gorkha
+3602,Ajirkot Rural Municipality,36,Gorkha
+3603,Barpak Sulikot Rural Municipality,36,Gorkha
+3604,Bhimsen Thapa Rural Municipality,36,Gorkha
+3605,Chumanubri Rural Municipality,36,Gorkha
+3606,Dharche Rural Municipality,36,Gorkha
+3607,Gandaki Rural Municipality,36,Gorkha
+3608,Gorkha Municipality,36,Gorkha
+3609,Palungtar Municipality,36,Gorkha
+3610,Shahid Lakhan Rural Municipality,36,Gorkha
+3611,Siranchowk Rural Municipality,36,Gorkha

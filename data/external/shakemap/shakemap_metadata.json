@@ -1,0 +1,140 @@
+{
+  "preferred": {
+    "product_source": "atlas",
+    "product_code": "us20002926",
+    "product_version": "1",
+    "map_status": "automatic",
+    "process_timestamp": "2020-06-03T05:35:56Z",
+    "update_time_ms": 1594162031303,
+    "url": "https://earthquake.usgs.gov/product/shakemap/us20002926/atlas/1594162031303/download/grid.xml",
+    "file": "preferred_grid.xml",
+    "bytes": 14875206,
+    "sha256": "3ffbe2492aed02029ddd3a08c8a0aa4f3206085acdd46c07423bb261cd43291c",
+    "event": {
+      "event_id": "us20002926",
+      "magnitude": "7.8",
+      "depth": "8.2",
+      "lat": "28.2305",
+      "lon": "84.7314",
+      "event_timestamp": "2015-04-25T06:11:25",
+      "event_network": "us",
+      "event_description": "36km E of Khudi, Nepal",
+      "intensity_observations": "435",
+      "seismic_stations": "27",
+      "point_source": "False"
+    },
+    "shakemap_grid": {
+      "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://earthquake.usgs.gov http://earthquake.usgs.gov/eqcenter/shakemap/xml/schemas/shakemap.xsd",
+      "event_id": "us20002926",
+      "shakemap_id": "us20002926",
+      "shakemap_version": "1",
+      "code_version": "4.0.2+335.gcbad862",
+      "process_timestamp": "2020-06-03T05:37:03",
+      "shakemap_originator": "atlas",
+      "map_status": "automatic",
+      "shakemap_event_type": "ACTUAL"
+    },
+    "grid_specification": {
+      "lon_min": "80.8500",
+      "lat_min": "23.9833",
+      "lon_max": "90.1333",
+      "lat_max": "31.9500",
+      "nominal_lon_spacing": "0.0167",
+      "nominal_lat_spacing": "0.0167",
+      "nlon": "558",
+      "nlat": "479"
+    },
+    "fields": [
+      "lon",
+      "lat",
+      "mmi",
+      "pga",
+      "pgv",
+      "psa03",
+      "psa10",
+      "psa30",
+      "svel"
+    ],
+    "units": {
+      "lon": "dd",
+      "lat": "dd",
+      "mmi": "intensity",
+      "pga": "%g",
+      "pgv": "cm/s",
+      "psa03": "%g",
+      "psa10": "%g",
+      "psa30": "%g",
+      "svel": "m/s"
+    }
+  },
+  "neic_v9": {
+    "product_source": "us",
+    "product_code": "us20002926",
+    "product_version": "9",
+    "map_status": "RELEASED",
+    "process_timestamp": "2015-07-02T22:50:42.000Z",
+    "update_time_ms": 1435877532354,
+    "url": "https://earthquake.usgs.gov/product/shakemap/us20002926/us/1435877532354/download/grid.xml.zip",
+    "file": "neic_v9_grid.xml.zip",
+    "bytes": 2039443,
+    "sha256": "bee181fa4a1928d8269062fb142ddd9aca9d853884c36658aaeab6cf0a74802c",
+    "event": {
+      "event_id": "us20002926",
+      "magnitude": "7.8",
+      "depth": "8.22",
+      "lat": "28.230500",
+      "lon": "84.731400",
+      "event_timestamp": "2015-04-25T06:11:25UTC",
+      "event_network": "us",
+      "event_description": "NEPAL"
+    },
+    "shakemap_grid": {
+      "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://earthquake.usgs.gov http://earthquake.usgs.gov/eqcenter/shakemap/xml/schemas/shakemap.xsd",
+      "event_id": "us20002926",
+      "shakemap_id": "us20002926",
+      "shakemap_version": "9",
+      "code_version": "3.5.1440",
+      "process_timestamp": "2015-07-02T22:50:42Z",
+      "shakemap_originator": "us",
+      "map_status": "RELEASED",
+      "shakemap_event_type": "ACTUAL"
+    },
+    "grid_specification": {
+      "lon_min": "81.731400",
+      "lat_min": "25.587500",
+      "lon_max": "87.731400",
+      "lat_max": "30.873500",
+      "nominal_lon_spacing": "0.016667",
+      "nominal_lat_spacing": "0.016675",
+      "nlon": "361",
+      "nlat": "318"
+    },
+    "fields": [
+      "lon",
+      "lat",
+      "pga",
+      "pgv",
+      "mmi",
+      "psa03",
+      "psa10",
+      "psa30",
+      "stdpga",
+      "urat",
+      "svel"
+    ],
+    "units": {
+      "lon": "dd",
+      "lat": "dd",
+      "pga": "pctg",
+      "pgv": "cms",
+      "mmi": "intensity",
+      "psa03": "pctg",
+      "psa10": "pctg",
+      "psa30": "pctg",
+      "stdpga": "ln(pctg)",
+      "urat": "",
+      "svel": "ms"
+    }
+  },
+  "retrieved_with": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us20002926&format=geojson"
+}

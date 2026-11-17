@@ -1,0 +1,53 @@
+{
+  "args": {
+    "n_jobs": 5,
+    "threads": 3,
+    "tag": "main",
+    "resume": false,
+    "quick": false,
+    "report": false
+  },
+  "lgbm_variants": [
+    [
+      "district_pga",
+      {},
+      "full",
+      "district"
+    ],
+    [
+      "pga_bins5",
+      {
+        "pga_bins": 5
+      },
+      "full",
+      "municipality"
+    ],
+    [
+      "pga_bins10",
+      {
+        "pga_bins": 10
+      },
+      "full",
+      "municipality"
+    ],
+    [
+      "init_fragility",
+      {
+        "init": "fragility"
+      },
+      "no_pga",
+      "municipality"
+    ]
+  ],
+  "python": "3.12.16",
+  "started": "2026-11-03 11:44:38",
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "sklearn": "1.9.1",
+    "lightgbm": "4.7.0",
+    "joblib": "1.6.0"
+  },
+  "finished": "2026-11-03 12:03:44",
+  "minutes": 19.0
+}

@@ -1,0 +1,6 @@
+check,mean,sd,folds_better,n
+LightGBM district PGA: neic_v9 - preferred,-1.061023733280227e-05,0.0002992451289076128,7,15
+fragility district - municipality PGA (preferred),-0.0006506169722612273,0.00428842073808709,9,15
+LightGBM district - municipality PGA (preferred),-0.025466158048443564,0.009194437116495691,15,15
+fragility district - municipality PGA (neic_v9),0.0015335558057116968,0.0041172537619985055,5,15
+LightGBM district - municipality PGA (neic_v9),-0.014246119732915436,0.007856145553232255,14,15

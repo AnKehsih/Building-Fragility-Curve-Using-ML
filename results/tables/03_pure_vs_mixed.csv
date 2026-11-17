@@ -1,0 +1,9 @@
+structural_type,n_mixed,n_pure,share_severe_mixed,share_severe_pure,mean_grade_mixed,mean_grade_pure,diff_share_severe_mixed_minus_pure
+rc_engineered,3398.0,5759.0,0.039,0.017,1.673,1.415,0.022
+rc_non_engineered,14905.0,11317.0,0.348,0.06,2.872,1.777,0.288
+cement_mortar_masonry,8261.0,37784.0,0.435,0.108,3.21,1.997,0.327
+mud_mortar_brick,3886.0,4969.0,0.648,0.414,3.88,3.119,0.234
+stone_masonry,23214.0,505336.0,0.73,0.714,4.088,4.0,0.016
+adobe_mud,,5587.0,,0.528,,3.429,
+timber_bamboo,,38678.0,,0.198,,2.272,
+other,,981.0,,0.179,,1.899,

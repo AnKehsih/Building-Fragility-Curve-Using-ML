@@ -1,0 +1,36 @@
+pga_source,model,design,d,lo,hi,n,interval
+preferred,decision_tree,Random split,0.0003611037114224391,0.0002613829040652171,0.00046082451877966113,5,mean +/- 1.96 SE over folds
+preferred,decision_tree,Municipality folds,0.006782090408753915,0.005024643317057667,0.008539537500450164,15,mean +/- 1.96 SE over folds
+preferred,decision_tree,Leave-one-district-out,0.011912770596293545,0.005991084272767599,0.01783445691981949,10,mean +/- 1.96 SE over folds
+preferred,decision_tree,Final test (Kavrepalanchok),0.010184563729081208,0.001773953241618115,0.018138144163562617,13,"95% cluster bootstrap, 13 municipalities"
+preferred,lightgbm,Random split,-0.01605340936275162,-0.01618026720225216,-0.015926551523251082,5,mean +/- 1.96 SE over folds
+preferred,lightgbm,Municipality folds,-0.005845061073220892,-0.00673592183522037,-0.004954200311221415,15,mean +/- 1.96 SE over folds
+preferred,lightgbm,Leave-one-district-out,-0.003728996457198132,-0.006608368778785206,-0.0008496241356110578,10,mean +/- 1.96 SE over folds
+preferred,lightgbm,Final test (Kavrepalanchok),-0.004942811400148327,-0.0073502062983622695,-0.0029582013084662553,13,"95% cluster bootstrap, 13 municipalities"
+preferred,ordinal_logit,Random split,-0.003456825220843085,-0.0035832635318920505,-0.0033303869097941192,5,mean +/- 1.96 SE over folds
+preferred,ordinal_logit,Municipality folds,-0.00263547381500809,-0.003624164035992239,-0.0016467835940239405,15,mean +/- 1.96 SE over folds
+preferred,ordinal_logit,Leave-one-district-out,-0.002942901800644508,-0.00654734746395975,0.000661543862670734,10,mean +/- 1.96 SE over folds
+preferred,ordinal_logit,Final test (Kavrepalanchok),-0.002534026008725339,-0.005104329059390141,-0.00037415424737726106,13,"95% cluster bootstrap, 13 municipalities"
+preferred,random_forest,Random split,-0.020909295782691528,-0.02104004618796248,-0.020778545377420576,5,mean +/- 1.96 SE over folds
+preferred,random_forest,Municipality folds,-0.002304291768078696,-0.0034511127683713562,-0.001157470767786036,15,mean +/- 1.96 SE over folds
+preferred,random_forest,Leave-one-district-out,0.0017028592339824761,-0.003711394350070488,0.00711711281803544,10,mean +/- 1.96 SE over folds
+preferred,random_forest,Final test (Kavrepalanchok),-0.0018483446840706383,-0.007739686911299375,0.005160052092505266,13,"95% cluster bootstrap, 13 municipalities"
+neic_v9,decision_tree,Municipality folds,0.005720442943400045,0.003346677063177643,0.008094208823622447,15,mean +/- 1.96 SE over folds
+neic_v9,decision_tree,Leave-one-district-out,0.009687860778045673,0.0016600975205080266,0.01771562403558332,10,mean +/- 1.96 SE over folds
+neic_v9,decision_tree,Final test (Kavrepalanchok),-0.003235316867596417,-0.015788391049149288,0.007038138923479999,13,"95% cluster bootstrap, 13 municipalities"
+neic_v9,lightgbm,Municipality folds,-0.005129750245000199,-0.005975237302678915,-0.004284263187321482,15,mean +/- 1.96 SE over folds
+neic_v9,lightgbm,Leave-one-district-out,-0.002196304581964828,-0.004225863408690978,-0.00016674575523867828,10,mean +/- 1.96 SE over folds
+neic_v9,lightgbm,Final test (Kavrepalanchok),-0.004409580667888242,-0.006194701052969185,-0.002862643290128598,13,"95% cluster bootstrap, 13 municipalities"
+neic_v9,ordinal_logit,Municipality folds,-0.0024519728508767434,-0.0032494898189421592,-0.0016544558828113275,15,mean +/- 1.96 SE over folds
+neic_v9,ordinal_logit,Leave-one-district-out,-0.0018256715973390806,-0.0041034135143584866,0.0004520703196803249,10,mean +/- 1.96 SE over folds
+neic_v9,ordinal_logit,Final test (Kavrepalanchok),-0.0015476868198853596,-0.004172955626149694,0.0006312396100957954,13,"95% cluster bootstrap, 13 municipalities"
+neic_v9,random_forest,Municipality folds,-0.005414297935726889,-0.007428755354326338,-0.003399840517127441,15,mean +/- 1.96 SE over folds
+neic_v9,random_forest,Leave-one-district-out,-0.00031252487269621125,-0.007958210110630677,0.007333160365238255,10,mean +/- 1.96 SE over folds
+neic_v9,random_forest,Final test (Kavrepalanchok),-0.007333780484624381,-0.01711239551635663,0.0008584378725979744,13,"95% cluster bootstrap, 13 municipalities"
+preferred,lightgbm_plain,Random split,-0.0377424886297941,-0.03812435510873162,-0.03736062215085659,5,mean +/- 1.96 SE over folds
+preferred,lightgbm_plain,Municipality folds,0.009458119461822007,0.006888776131182191,0.012027462792461823,15,mean +/- 1.96 SE over folds
+preferred,lightgbm_plain,Leave-one-district-out,0.014486127492268696,0.004352523636431951,0.02461973134810544,10,mean +/- 1.96 SE over folds
+preferred,lightgbm_plain,Final test (Kavrepalanchok),0.009600665790862856,,,13,secondary run: point estimate only
+neic_v9,lightgbm_plain,Municipality folds,0.0022853948560237775,-0.0008408326708779297,0.005411622382925484,15,mean +/- 1.96 SE over folds
+neic_v9,lightgbm_plain,Leave-one-district-out,0.007861669051372182,0.00023756032472739119,0.015485777778016973,10,mean +/- 1.96 SE over folds
+neic_v9,lightgbm_plain,Final test (Kavrepalanchok),-0.010422509489986242,,,13,secondary run: point estimate only

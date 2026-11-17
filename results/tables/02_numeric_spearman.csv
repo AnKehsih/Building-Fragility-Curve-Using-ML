@@ -1,0 +1,6 @@
+,count_floors_pre_eq,age_building,plinth_area_sq_ft,height_ft_pre_eq,damage_grade
+count_floors_pre_eq,1.0,0.218,0.119,0.725,0.232
+age_building,0.218,1.0,-0.041,0.157,0.248
+plinth_area_sq_ft,0.119,-0.041,1.0,0.21,-0.097
+height_ft_pre_eq,0.725,0.157,0.21,1.0,0.135
+damage_grade,0.232,0.248,-0.097,0.135,1.0

@@ -1,0 +1,30 @@
+{
+  "args": {
+    "n_jobs": 8,
+    "threads": 3,
+    "tag": "main",
+    "resume": false,
+    "quick": false,
+    "report": false
+  },
+  "reduced_drop": [
+    "ground_floor_type",
+    "height_ft_pre_eq",
+    "land_surface_condition",
+    "plan_configuration",
+    "plinth_area_sq_ft",
+    "position"
+  ],
+  "accept_rule": 0.0005,
+  "python": "3.12.16",
+  "started": "2026-11-04 07:50:15",
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "sklearn": "1.9.1",
+    "lightgbm": "4.7.0",
+    "joblib": "1.6.0"
+  },
+  "finished": "2026-11-04 07:55:09",
+  "minutes": 4.9
+}

@@ -1,0 +1,12 @@
+,n_with_flag,share_with_flag,share_severe_if_flag,share_severe_if_not
+adobe_mud,17343,0.026,0.624,0.612
+mud_mortar_stone,536549,0.808,0.709,0.208
+stone_flag,26363,0.04,0.737,0.607
+cement_mortar_stone,11537,0.017,0.377,0.617
+mud_mortar_brick,10463,0.016,0.484,0.615
+cement_mortar_brick,47912,0.072,0.097,0.653
+timber,186774,0.281,0.517,0.65
+bamboo,59840,0.09,0.435,0.63
+rc_non_engineered,26517,0.04,0.222,0.629
+rc_engineered,9157,0.014,0.025,0.621
+other,8679,0.013,0.438,0.615
